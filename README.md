@@ -1,18 +1,19 @@
-# Algorithms & Problem Solving - Level 2 🧠
+# Problem Solving in C++
 
-Welcome to my repository! This project contains my solutions to the **50 Problem-Solving Challenges** from Course 5 of the Programming Advices roadmap (Eng. Mohammed Abu Hadhoud).
+A collection of algorithmic and logic problems solved using C++. This repository serves as a personal portfolio to document my journey in mastering problem-solving, improving logical thinking, and writing clean, optimized code.
 
-## 🎯 Project Objective
-Although I am currently at Course 19 in the roadmap, I created this repository to revisit foundational problem-solving concepts on a daily basis. My main goals are:
-- To practice algorithmic thinking and logic.
-- To write **Clean Code** by breaking down solutions into clear, modular functions.
-- To improve and optimize my coding style compared to my earlier stages.
+## 🎯 Focus Areas
+* **Clean Code:** Writing readable, maintainable, and well-structured code.
+* **Separation of Concerns:** Breaking down complex problems into small, reusable functions.
+* **Optimization:** Finding efficient approaches to solve problems with minimal execution time (e.g., halving loop iterations where mathematically applicable).
+* **Defensive Programming:** Handling edge cases and unexpected user inputs gracefully.
 
-## 💻 Technology Used
-- **Language:** C++
+## 📁 Repository Structure
+Each `.cpp` file in this repository represents a standalone problem solution. 
 
-## 📂 Repository Structure
-Each problem is solved in a separate `.cpp` file, clearly named to indicate the challenge it addresses. 
+## 🚀 How to Run
+To compile and run any of the solutions locally, you can use the `g++` compiler in your terminal.
 
----
-*Created as part of a daily commitment to continuous improvement.
+1. **Compile the code:**
+   ```bash
+   g++ problem_name.cpp -o problem_name
