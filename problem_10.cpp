@@ -32,13 +32,10 @@ int ReverseNumber(int Number)
 
 void PrintDigits(int Number)
 {
-   int Reminder = 0;
-
    while(Number > 0)
    {
-      Reminder = Number % 10;
+      cout << GetLastDigit(Number) << endl;
       Number /= 10;
-      cout << Reminder << endl;
    }
 }
 
